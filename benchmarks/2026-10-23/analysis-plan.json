@@ -1,0 +1,32 @@
+{
+  "created_before_aggregate_test_inspection": true,
+  "primary_outcomes": [
+    "Test AUC-ROC",
+    "Test average precision"
+  ],
+  "aggregation": "Arithmetic mean and sample standard deviation over seeds 42, 123, 2026; no significance claim from three splits.",
+  "timing": "Per-method fit, validation selection and test scoring. CPU and GPU timings must be labeled by device. Whole-process wall time includes loading, imports and output.",
+  "audit": [
+    "63 successful unique cases",
+    "Identical split IDs and feature hashes across methods for each dataset/seed",
+    "Same frozen source fingerprint",
+    "Exact test pair and label identity across seven methods",
+    "Finite bounded AUC/AP",
+    "No validation/test/train overlap"
+  ],
+  "exploratory_validation_only": [
+    "Resource Allocation",
+    "Common Neighbors",
+    "Preferential Attachment",
+    "Node-feature cosine similarity"
+  ],
+  "improvement_review": [
+    "Checkpoint timing and validation learning curves",
+    "Train-edge exposure in message passing versus unseen evaluation links",
+    "Feature-input advantage of GNNs",
+    "Two embedding candidates versus fixed GNN recipe",
+    "Balanced easy negative sampling versus realistic ranking",
+    "PPI single-graph scope",
+    "Sparse HOPE memory scaling"
+  ]
+}

@@ -1,13 +1,16 @@
-# Python-generated files
+.venv*/
 __pycache__/
-*.py[oc]
+*.py[cod]
 build/
 dist/
-wheels/
-*.egg-info
-
-# Virtual environments
-.venv
-
-#
+*.egg-info/
+.pytest_cache/
+.ipynb_checkpoints/
+.env
+local_backups/
+data/
+reports/
+img/
+logs.txt
+paper & books/
 shashani_project/

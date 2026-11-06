@@ -1,0 +1,29 @@
+{
+  "captured_at_utc": "2026-10-23T12:30:26.015099+00:00",
+  "os": "Windows-10-10.0.19045-SP0",
+  "cpu": {
+    "Name": "11th Gen Intel(R) Core(TM) i5-11400H @ 2.70GHz",
+    "NumberOfCores": 6,
+    "NumberOfLogicalProcessors": 12
+  },
+  "physical_ram_bytes": 16905162752,
+  "gpu": "NVIDIA GeForce RTX 3050 Ti Laptop GPU, 610.91, 4096 MiB",
+  "timing_caveat": "Local laptop on AC power; benchmark cases run serially in separate processes with three CPU threads. Environment setup and a small CUDA arithmetic verification overlap the CPU stage. No resource exclusivity, locked GPU clocks or repeated warm timing trials. Downloads, loading, imports and output are outside method time. Timings characterize these implementations on this device.",
+  "power_plugged_at_check": true,
+  "battery_percent_at_check": 60,
+  "cuda_verification": {
+    "torch": "2.14.1+cu130",
+    "cuda_runtime": "13.0",
+    "cuda_available": true,
+    "device": "NVIDIA GeForce RTX 3050 Ti Laptop GPU",
+    "sum_squared_range_10": 285,
+    "supported_sm": [
+      "75",
+      "80",
+      "86",
+      "90",
+      "100",
+      "120"
+    ]
+  }
+}

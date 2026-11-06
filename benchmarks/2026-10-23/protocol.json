@@ -1,0 +1,36 @@
+{
+  "datasets": [
+    "Cora",
+    "PubMed",
+    "PPI"
+  ],
+  "seeds": [
+    42,
+    123,
+    2026
+  ],
+  "methods": [
+    "jaccard",
+    "adamic-adar",
+    "hope",
+    "node2vec",
+    "gcn",
+    "sage",
+    "gat"
+  ],
+  "epochs": 200,
+  "dimensions": 64,
+  "walk_length": 20,
+  "num_walks": 20,
+  "window": 5,
+  "beta": 0.01,
+  "tune": true,
+  "validation_ratio": 0.1,
+  "test_ratio": 0.2,
+  "ppi_index": 0,
+  "threads": 3,
+  "hope_backend": "sparse",
+  "gnn_device": "cuda",
+  "source_sha256": "a4d6b5c361c32bc820a82f3ae5490bd8febef30dffe2df320e71f8f081a89dd4",
+  "scope": "Transductive within each selected graph; PPI training graph 0, not all PPI graphs."
+}

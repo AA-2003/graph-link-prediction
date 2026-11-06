@@ -1,0 +1,35 @@
+{
+  "Cora": {
+    "nodes": 2708,
+    "positive_edges": 5278,
+    "features": 1433,
+    "train_pos": 3696,
+    "val_pos": 527,
+    "test_pos": 1055,
+    "train_neg": 3696,
+    "val_neg": 527,
+    "test_neg": 1055
+  },
+  "PubMed": {
+    "nodes": 19717,
+    "positive_edges": 44324,
+    "features": 500,
+    "train_pos": 31028,
+    "val_pos": 4432,
+    "test_pos": 8864,
+    "train_neg": 31028,
+    "val_neg": 4432,
+    "test_neg": 8864
+  },
+  "PPI": {
+    "nodes": 1767,
+    "positive_edges": 16159,
+    "features": 50,
+    "train_pos": 11313,
+    "val_pos": 1615,
+    "test_pos": 3231,
+    "train_neg": 11313,
+    "val_neg": 1615,
+    "test_neg": 3231
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "created_at": "2026-10-23",
+  "reason": "Preliminary validation review: Node2Vec dot-product validation AUC averages 0.7149 on Cora, versus HOPE 0.7133 at much lower method time. Probe whether scoring/decoder is an issue before proposing longer embedding training.",
+  "additional_exploration": "Reuse the original validation-selected Node2Vec embedding; compare cosine scores and a fixed C=1 standardized logistic decoder on elementwise product and absolute difference. Fit decoder on train labels only; evaluate validation only; no test scoring or hyperparameter search.",
+  "selection_caveat": "These additional comparisons are exploratory and may overfit the validation set through repeated inspection. Any claimed gain needs a new prespecified experiment with a fresh holdout."
+}

@@ -1,0 +1,97 @@
+{
+  "status": "passed",
+  "successful_cases": 63,
+  "source_sha256": "a4d6b5c361c32bc820a82f3ae5490bd8febef30dffe2df320e71f8f081a89dd4",
+  "checks": [
+    {
+      "dataset": "Cora",
+      "seed": 42,
+      "methods": 7,
+      "split_id": "898ed2e4826d0eb1a635a324416344425b4b7fc3aaa696997df9d019a244f8d4",
+      "features_sha256": "1a213087243ca1ee26967d0809d04997d276f0911fe5f8d994f49b3aa873b675",
+      "identical_test_pairs_and_labels": true,
+      "unique_disjoint_all_six_edge_groups": true,
+      "metrics_recomputed_from_saved_predictions": true
+    },
+    {
+      "dataset": "Cora",
+      "seed": 123,
+      "methods": 7,
+      "split_id": "1810b71cf6f3c720f497007fb14f2e0b315469e738321f0ec9bef0cde5726082",
+      "features_sha256": "1a213087243ca1ee26967d0809d04997d276f0911fe5f8d994f49b3aa873b675",
+      "identical_test_pairs_and_labels": true,
+      "unique_disjoint_all_six_edge_groups": true,
+      "metrics_recomputed_from_saved_predictions": true
+    },
+    {
+      "dataset": "Cora",
+      "seed": 2026,
+      "methods": 7,
+      "split_id": "34ee0ca5aa180ab35f8c3a870ef5a7f2a42caf0ea9dc55fdf2a603ef992c8297",
+      "features_sha256": "1a213087243ca1ee26967d0809d04997d276f0911fe5f8d994f49b3aa873b675",
+      "identical_test_pairs_and_labels": true,
+      "unique_disjoint_all_six_edge_groups": true,
+      "metrics_recomputed_from_saved_predictions": true
+    },
+    {
+      "dataset": "PubMed",
+      "seed": 42,
+      "methods": 7,
+      "split_id": "8856d46501eddb76a22dcae6bb51c67a14ea276bc5a3194afed8981408e92b21",
+      "features_sha256": "545b90c42b2140258ec6152835888d0647dbe96d9d66e9b4a8cedb6ce3cd493e",
+      "identical_test_pairs_and_labels": true,
+      "unique_disjoint_all_six_edge_groups": true,
+      "metrics_recomputed_from_saved_predictions": true
+    },
+    {
+      "dataset": "PubMed",
+      "seed": 123,
+      "methods": 7,
+      "split_id": "3af606e8dcdb0c5bcef1dd77cb688f4580cc027888b5a2accd2af2801c945f70",
+      "features_sha256": "545b90c42b2140258ec6152835888d0647dbe96d9d66e9b4a8cedb6ce3cd493e",
+      "identical_test_pairs_and_labels": true,
+      "unique_disjoint_all_six_edge_groups": true,
+      "metrics_recomputed_from_saved_predictions": true
+    },
+    {
+      "dataset": "PubMed",
+      "seed": 2026,
+      "methods": 7,
+      "split_id": "19dee4d5935e197144b11cb55bf765264ea5db1711c96320a8d315c77b201221",
+      "features_sha256": "545b90c42b2140258ec6152835888d0647dbe96d9d66e9b4a8cedb6ce3cd493e",
+      "identical_test_pairs_and_labels": true,
+      "unique_disjoint_all_six_edge_groups": true,
+      "metrics_recomputed_from_saved_predictions": true
+    },
+    {
+      "dataset": "PPI",
+      "seed": 42,
+      "methods": 7,
+      "split_id": "6971b6f83fa2797b508b9c522f691b7be96d0c98d94eb8c927e0f84e6a3370da",
+      "features_sha256": "8db0a5160495af19770e8cc50d89715be1d42c11310ebdc07c95dd65e0ab1395",
+      "identical_test_pairs_and_labels": true,
+      "unique_disjoint_all_six_edge_groups": true,
+      "metrics_recomputed_from_saved_predictions": true
+    },
+    {
+      "dataset": "PPI",
+      "seed": 123,
+      "methods": 7,
+      "split_id": "f9b1670cf5496eb6b7621314caf4ac59f6d02c041253066973b9510da62cd7f2",
+      "features_sha256": "8db0a5160495af19770e8cc50d89715be1d42c11310ebdc07c95dd65e0ab1395",
+      "identical_test_pairs_and_labels": true,
+      "unique_disjoint_all_six_edge_groups": true,
+      "metrics_recomputed_from_saved_predictions": true
+    },
+    {
+      "dataset": "PPI",
+      "seed": 2026,
+      "methods": 7,
+      "split_id": "b9f179191f14f034f42e59b3e9263c0e5a544eb072c66f5149aadc47ecf2fb7f",
+      "features_sha256": "8db0a5160495af19770e8cc50d89715be1d42c11310ebdc07c95dd65e0ab1395",
+      "identical_test_pairs_and_labels": true,
+      "unique_disjoint_all_six_edge_groups": true,
+      "metrics_recomputed_from_saved_predictions": true
+    }
+  ]
+}
